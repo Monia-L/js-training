@@ -1,17 +1,25 @@
 'use strict'
+// * see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
 
 /*
  * Create the `abs` function that takes one number argument
  * and returns its absolute value.
  * You are not allowed to use `Math.abs`, make your own.
- * see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
- *
+ 
  * @notions Functions, Ternary
  */
 
 // Your code :
+    const abs = (number) => {
+            if (number < 0) {
+                return number * - 1;
 
-//* Begin of tests
+            } else {
+                return number;
+            }
+       
+    }
+// //* Begin of tests
 const assert = require('assert')
 
 assert.strictEqual(typeof abs, 'function')
