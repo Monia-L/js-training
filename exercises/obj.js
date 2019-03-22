@@ -5,7 +5,7 @@
  * much like in primitive.js
  *
  * @notions Functions, Operators
- */
+ */ 
 
 // Your code :
 const obj = new Object();

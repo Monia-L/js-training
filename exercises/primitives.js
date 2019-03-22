@@ -10,7 +10,7 @@
 // Your code :
 const str = '1337';
 const num = 42;
-const bool = false;
+const bool = false; 
 const undef = undefined;
 console.log(undef);
 //* Begin of tests
